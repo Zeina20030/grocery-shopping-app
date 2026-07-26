@@ -23,7 +23,7 @@ class OrderTile extends StatelessWidget {
           children: [
             Text(formatPrice(order.totalAmount),
                 style: Theme.of(context).textTheme.titleSmall),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             StatusChip(status: order.status),
           ],
         ),
